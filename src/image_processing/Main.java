@@ -17,7 +17,7 @@ public class Main {
     inFileHandler.closeFile();
     fileWrtiter.writeArray(histogram.returnhisto(),histogram.getHeader(), new File(outputFile));
     histogram.returnhisto();
-    System.out.println("d");
+    
 
 
 
